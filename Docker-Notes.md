@@ -1,5 +1,4 @@
 ## what is Docker
-ChatGPT said:
 
 Docker is a platform used to build, run, and manage applications inside containers.
 
