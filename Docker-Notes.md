@@ -47,3 +47,5 @@ Steps:
 - Create a Dockerfile
 
 - Build the image
+
+docker build -t myimage .
