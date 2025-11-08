@@ -140,6 +140,8 @@ kubectl rollout status deployment/name
 
 kubectl rollout undo deployment/name
 
-
+## **✅ K8s NETWORKING**
+## 18. What is Ingress in Kubernetes?
+Ingress is used to expose HTTP/HTTPS applications from Kubernetes to the internet.
 
 
