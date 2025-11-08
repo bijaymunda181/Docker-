@@ -73,7 +73,7 @@ Kubernetes (K8s) is an orchestration tool used to manage containers at scale (de
 
 Two types of components:
 
-Control Plane (Master Node)
+**Control Plane (Master Node)**
 
 - API server
 
@@ -81,7 +81,7 @@ Control Plane (Master Node)
 
 - Scheduler
 
-Controller Manager
+- Controller Manager
 
 **Worker Node**
 
