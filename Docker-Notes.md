@@ -34,3 +34,8 @@ Think of a container like a sealed lunch box 🥡:
 | Lightweight and fast                       | ✅         |
 | Uses fewer resources than VMs              | ✅         |
 | Works the same on any system               | ✅         |
+
+## 3. What is a Docker Image?
+A Docker image is a read-only template used to create containers.
+
+docker pull nginx
