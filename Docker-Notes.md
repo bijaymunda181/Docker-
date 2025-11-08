@@ -59,7 +59,9 @@ docker logs container-name
 
 ## ✅ **KUBERNETES BASICS**
 ## 6. What is Kubernetes?
-Kubernetes (K8s) is an orchestration tool used to manage containers at scale (deploy, manage, scale, update).
+Kubernetes (K8s) is an open-source platform used to manage containers (like Docker) at scale.
+
+➡️ It automatically handles deployment, scaling, load balancing, and management of containerized applications.
 
 ## 7. What is Docker and Kubernetes - EKS?
 
