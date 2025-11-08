@@ -106,4 +106,12 @@ A pod contains one or more containers.
 ## 11. What is RC (Replication Controller)?
 Ensures the specified number of pods are always running.
 
+## 12. What is RS (ReplicaSet)?
+Improved version of RC.
+
+Fast matching of existing pods using selectors.
+
+## 13. What is Deployment in Kubernetes?
+Deployment manages ReplicaSets and pod updates (rollout and rollback).
+
 
