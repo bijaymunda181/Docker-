@@ -7,7 +7,6 @@ Docker is a platform used to build, run, and manage applications inside containe
 Docker allows you to package an application along with everything it needs (code, libraries, dependencies) into a container so that it can run the same way on any system.
 
 ## 2. What is Container
-ChatGPT said:
 
 A container is a lightweight, isolated environment where an application runs along with all its required files, libraries, and dependencies.
 
