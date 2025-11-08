@@ -114,4 +114,18 @@ Fast matching of existing pods using selectors.
 ## 13. What is Deployment in Kubernetes?
 Deployment manages ReplicaSets and pod updates (rollout and rollback).
 
+## 14. Difference between RC, RS, and Deployment
+| Feature                     | RC | RS           | Deployment |
+| --------------------------- | -- | ------------ | ---------- |
+| Ensures pod replicas        | ✅  | ✅            | ✅          |
+| Supports label selector     | ✅  | ✅ (improved) | ✅          |
+| Supports rollout & rollback | ❌  | ❌            | ✅          |
+
+
+✅ **K8s POD OPERATIONS**
+
+## 15. How to check pod logs in Kubernetes?
+kubectl logs pod-name
+
+
 
