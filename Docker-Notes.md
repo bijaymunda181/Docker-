@@ -63,6 +63,20 @@ Kubernetes (K8s) is an open-source platform used to manage containers (like Dock
 
 ➡️ It automatically handles deployment, scaling, load balancing, and management of containerized applications.
 
+**✅ Simple Example**
+
+If you have:
+
+- 1 container → Docker is enough
+
+- 100 containers → Kubernetes manages it efficiently
+
+**🧠 Easy analogy**
+
+Docker = creates a container
+
+Kubernetes = manages many containers
+
 ## 7. What is Docker and Kubernetes - EKS?
 
 - Docker: Used to build and run containers.
