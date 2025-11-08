@@ -174,3 +174,10 @@ A configuration file that stores:
     Default location (Linux):
 
 ~/.kube/config
+
+## **✅ HELM**
+## 25. What is Helm?
+Helm is a package manager for Kubernetes (like yum or apt but for K8s).
+
+## 26. What is Helm Chart?
+Helm Chart is a package format that contains YAML templates to deploy Kubernetes applications.
