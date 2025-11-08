@@ -54,3 +54,10 @@ docker build -t myimage .
 
 docker run -d --name mycontainer myimage
 
+## 5. How to check container logs in Docker?
+docker logs <container-name>
+
+## 5. How to check container logs in Docker?
+docker logs <container-name>
+
+
