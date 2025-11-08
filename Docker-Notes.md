@@ -91,4 +91,10 @@ Two types of components:
 
 - Container runtime (Docker / containerd)
 
+## 9. What is Master Plane and Data Plane?
+
+- Master plane (control plane): Decides what happens (brain).
+
+- Data plane (worker nodes): Executes workloads (muscles).
+
 
