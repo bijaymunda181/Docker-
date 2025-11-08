@@ -169,3 +169,8 @@ A configuration file that stores:
 - Authentication info
 
 - Namespace
+
+## 24. File location of kubeconfig?
+    Default location (Linux):
+
+~/.kube/config
