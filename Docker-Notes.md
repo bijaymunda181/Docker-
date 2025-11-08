@@ -69,4 +69,26 @@ Kubernetes (K8s) is an orchestration tool used to manage containers at scale (de
 
 - EKS: Amazon Elastic Kubernetes Service: Kubernetes managed by AWS.
 
+## 8. What are the components available in Kubernetes?
+
+Two types of components:
+
+Control Plane (Master Node)
+
+- API server
+
+- etcd
+
+- Scheduler
+
+Controller Manager
+
+**Worker Node**
+
+- Kubelet
+
+- Kube-proxy
+
+- Container runtime (Docker / containerd)
+
 
