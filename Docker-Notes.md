@@ -137,6 +137,7 @@ kubectl describe pod <pod-name>
 - Rollback: Reverting to the previous version.
 
 kubectl rollout status deployment/<name>
+
 kubectl rollout undo deployment/<name>
 
 
