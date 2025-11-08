@@ -144,4 +144,28 @@ kubectl rollout undo deployment/name
 ## 18. What is Ingress in Kubernetes?
 Ingress is used to expose HTTP/HTTPS applications from Kubernetes to the internet.
 
+## **✅ CONFIGS & SECRETS**
+## 19. What is ConfigMap?
+Stores non-sensitive configuration data in key-value format (e.g., app settings).
 
+## 20. What is Secret?
+Stores sensitive information (passwords, API keys) in base64 format.
+
+## **✅ SECURITY**
+## 21. What is RBAC in Kubernetes?
+Role-Based Access Control
+
+Used to assign permissions to users.
+
+## **✅ kubectl & kubeconfig**
+## 22. What is kubectl in Kubernetes?
+kubectl is a command line tool used to interact with Kubernetes cluster.
+
+## 23. What is kubeconfig?
+A configuration file that stores:
+
+- Cluster details
+
+- Authentication info
+
+- Namespace
