@@ -102,4 +102,9 @@ A pod is the smallest deployable unit in Kubernetes.
 
 A pod contains one or more containers.
 
+## ✅ **K8s CORE OBJECTS**
+## 11. What is RC (Replication Controller)?
+
+Ensures the specified number of pods are always running.
+
 
