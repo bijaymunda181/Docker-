@@ -39,3 +39,11 @@ Think of a container like a sealed lunch box 🥡:
 A Docker image is a read-only template used to create containers.
 
 docker pull nginx
+
+## 4. How to build a Docker container?
+
+Steps:
+
+- Create a Dockerfile
+
+- Build the image
