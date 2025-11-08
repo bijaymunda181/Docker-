@@ -61,6 +61,12 @@ docker logs container-name
 ## 6. What is Kubernetes?
 Kubernetes (K8s) is an orchestration tool used to manage containers at scale (deploy, manage, scale, update).
 
+## 7. What is Docker and Kubernetes - EKS?
 
+- Docker: Used to build and run containers.
+
+- Kubernetes: Used to manage many containers.
+
+- EKS: Amazon Elastic Kubernetes Service: Kubernetes managed by AWS.
 
 
