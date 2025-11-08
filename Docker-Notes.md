@@ -57,6 +57,10 @@ docker run -d --name mycontainer myimage
 ## 5. How to check container logs in Docker?
 docker logs container-name
 
+## ✅ **KUBERNETES BASICS**
+## 6. What is Kubernetes?
+Kubernetes (K8s) is an orchestration tool used to manage containers at scale (deploy, manage, scale, update).
+
 
 
 
