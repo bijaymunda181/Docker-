@@ -97,4 +97,9 @@ Two types of components:
 
 - Data plane (worker nodes): Executes workloads (muscles).
 
+## 10. What is a Pod?
+A pod is the smallest deployable unit in Kubernetes.
+
+A pod contains one or more containers.
+
 
