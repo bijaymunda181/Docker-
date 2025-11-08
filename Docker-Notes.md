@@ -127,5 +127,18 @@ Deployment manages ReplicaSets and pod updates (rollout and rollback).
 ## 15. How to check pod logs in Kubernetes?
 kubectl logs pod-name
 
+## 16. How to describe the pod?
+kubectl describe pod <pod-name>
+
+## 17. What is rollout & rollback and how to do it?
+
+- Rollout: Updating deployment to a new version.
+
+- Rollback: Reverting to the previous version.
+
+kubectl rollout status deployment/<name>
+kubectl rollout undo deployment/<name>
+
+
 
 
