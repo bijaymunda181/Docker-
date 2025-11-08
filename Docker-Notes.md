@@ -44,8 +44,13 @@ docker pull nginx
 
 Steps:
 
-- Create a Dockerfile
+1. Create a Dockerfile
 
-- Build the image
+2. Build the image
 
 docker build -t myimage .
+
+3. Run the container
+
+docker run -d --name mycontainer myimage
+
