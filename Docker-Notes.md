@@ -38,6 +38,25 @@ Think of a container like a sealed lunch box 🥡:
 ## 3. What is a Docker Image?
 A Docker image is a read-only template used to create containers.
 
+or
+
+A Docker image is a blueprint (template) used to create Docker containers.
+
+It contains everything required to run an application:
+
+**Source code**
+
+- Runtime (Python/Java etc.)
+
+- Dependencies & libraries
+
+- Configuration files
+
+You build an image once, and based on that image, Docker can run multiple containers.
+
+👉 Image = Template
+👉 Container = Running instance of the image
+
 docker pull nginx
 
 ## 4. How to build a Docker container?
