@@ -69,9 +69,9 @@ Steps:
 
 docker build -t myimage .
 
-- -t myapp-image → Tag/name of the image
+- `-t myapp-image` → Tag/name of the image
 
-- . → Location of Dockerfile (current directory)
+- `.` → Location of Dockerfile (current directory)
 
 3. Run the container
 
