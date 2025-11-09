@@ -82,7 +82,7 @@ docker run -d --name mycontainer myimage
 It tells Docker what base image to use, what files to copy, what commands to run, and how to start the application inside the container.
 
 ## 5. How to check container logs in Docker?
-docker logs container-name
+docker logs `<container-name>`
 
 ## ✅ **KUBERNETES BASICS**
 ## 6. What is Kubernetes?
