@@ -77,7 +77,7 @@ docker build -t myimage .
 
 docker run -d --name mycontainer myimage
 
-`**Dockerfile:**` A Dockerfile is a text file that contains a set of instructions used by Docker to build an image.
+**`Dockerfile:`** A Dockerfile is a text file that contains a set of instructions used by Docker to build an image.
 
 It tells Docker what base image to use, what files to copy, what commands to run, and how to start the application inside the container.
 
