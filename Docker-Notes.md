@@ -69,7 +69,7 @@ Steps:
 
 docker build -t myimage .
 
-- `-t myapp-image` → Tag/name of the image
+- `-t myimage` → Tag/name of the image
 
 - `.` → Location of Dockerfile (current directory)
 
