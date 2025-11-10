@@ -68,6 +68,6 @@ To download a specific version (tag) of a Docker image from a registry — usual
 
 🧠 Examples:
 
-docker pull ubuntu:20.04
+docker pull mysql:8.0
 
 
