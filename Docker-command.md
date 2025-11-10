@@ -21,3 +21,16 @@ What it shows:
 - CREATED – When it was created
 
 - SIZE – Size of the image
+
+## 3. docker run -it `<image-name>`
+To run a Docker container interactively.
+
+Here’s what each part means:
+
+- docker run → starts a new container from a Docker image.
+
+- -i → keeps STDIN (input) open even if not attached (interactive mode).
+
+- -t → allocates a pseudo-TTY (terminal), so you get an interactive shell.
+
+- `<image-name>` → the name (or ID) of the Docker image you want to run.
