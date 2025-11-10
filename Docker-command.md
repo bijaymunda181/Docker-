@@ -34,3 +34,12 @@ Here’s what each part means:
 - -t → allocates a pseudo-TTY (terminal), so you get an interactive shell.
 
 - `<image-name>` → the name (or ID) of the Docker image you want to run.
+
+## 4. docker start `<container-name or id>`
+Used to start an existing (stopped) container.
+
+## 5. docker stop `<container-name>`
+Used to gracefully stop a running container.
+
+## 6. docker ps
+To list all running Docker containers.
