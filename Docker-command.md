@@ -57,3 +57,12 @@ To remove (delete) a Docker image from your local system.
 ## 9. docker rm `<container-name>`
 To remove (delete) a container from your system.
 
+## 10. docker pull `<image-name>:<version>`
+To download a specific version (tag) of a Docker image from a registry — usually Docker Hub — to your local machine.
+
+- docker pull → fetches an image from a registry (like Docker Hub).
+
+- `<image-name>` → the name of the image (e.g., ubuntu, nginx, mysql).
+
+- `:<version>` → the tag that specifies which version you want.
+
