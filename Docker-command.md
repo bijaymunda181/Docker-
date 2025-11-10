@@ -66,3 +66,8 @@ To download a specific version (tag) of a Docker image from a registry — usual
 
 - `:<version>` → the tag that specifies which version you want.
 
+🧠 Examples:
+
+docker pull ubuntu:20.04
+
+
