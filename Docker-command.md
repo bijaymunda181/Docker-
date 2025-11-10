@@ -7,7 +7,7 @@ The command is used to download (pull) a Docker image from a remote registry —
 
 - <image-name> → the name of the image you want to download (e.g., ubuntu, nginx, mysql).
 
-## 2. docker images
+## 2. docker `<images>`
 docker images is a Docker command used to list all the images available on your local system.
 
 What it shows:
