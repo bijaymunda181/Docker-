@@ -49,3 +49,11 @@ To list all containers — both running and stopped ones.
 
 ## 8. docker rmi `<image-name>`
 To remove (delete) a Docker image from your local system.
+
+- docker rmi → stands for remove image.
+
+- <image-name> or <image-id> → the image you want to delete.
+
+## 9. docker rm `<container-name>`
+To remove (delete) a container from your system.
+
