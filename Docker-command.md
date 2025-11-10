@@ -70,4 +70,18 @@ To download a specific version (tag) of a Docker image from a registry — usual
 
 docker pull mysql:8.0
 
+## 11. docker run -d -e MYSQL_ROOT_PASSWORD=`<Add_password>` `<image-name>`
+to run a Docker container in detached mode (-d), set an environment variable (-e), and use an image to create the container.
+
+- docker run → start a new container.
+
+- -d → detached mode (runs in the background).
+
+- -e → set an environment variable inside the container.
+
+- MYSQL_ROOT_PASSWORD=<Add_Password> → sets the MySQL root password.
+
+- `<image-name>` → the Docker image to run (e.g., mysql).
+
+
 
