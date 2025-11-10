@@ -43,3 +43,7 @@ Used to gracefully stop a running container.
 
 ## 6. docker ps
 To list all running Docker containers.
+
+## 7. docker ps -a
+To list all containers — both running and stopped ones.
+
