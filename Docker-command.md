@@ -47,3 +47,5 @@ To list all running Docker containers.
 ## 7. docker ps -a
 To list all containers — both running and stopped ones.
 
+## 8. docker rmi `<image-name>`
+To remove (delete) a Docker image from your local system.
