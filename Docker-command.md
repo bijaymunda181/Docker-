@@ -71,7 +71,7 @@ To download a specific version (tag) of a Docker image from a registry — usual
 docker pull mysql:8.0
 
 ## 11. docker run -d -e MYSQL_ROOT_PASSWORD=`<Add_password>` `<image-name>`
-to run a Docker container in detached mode (-d), set an environment variable (-e), and use an image to create the container.
+To run a Docker container in detached mode (-d), set an environment variable (-e), and use an image to create the container.
 
 - docker run → start a new container.
 
@@ -83,5 +83,23 @@ to run a Docker container in detached mode (-d), set an environment variable (-e
 
 - `<image-name>` → the Docker image to run (e.g., mysql).
 
+## 12. docker run -d -e MYSQL_ROOT_PASSWORD=`<Add_password>` `<image-name>`:`<version>`
+To run a Docker container of specific version in detached mode (-d), set an environment variable (-e), and use an image to create the container.
+
+## 13. docker run -d -p `<host-port>`:`<container-port>` `<image-name>`
+This is the generic format for port mapping when running a Docker container.
+
+| Part               | Meaning                                      |
+| ------------------ | -------------------------------------------- |
+| `docker run`       | Creates & runs a new container               |
+| `-d`               | Detached mode (runs in background)           |
+| `-p`               | Port mapping (expose container port to host) |
+| `<host-port>`      | Port on your **machine** (laptop/server)     |
+| `<container-port>` | Port inside the **container**                |
+| `<image-name>`     | Docker image to create container from        |
+
+**Example: Running MySQL**
+
+docker run -d -p 8080:3306 -e MYSQL_ROOT_PASSWORD=pass123 mysql
 
 
