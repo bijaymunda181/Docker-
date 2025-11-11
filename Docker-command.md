@@ -119,5 +119,10 @@ When to use this:
 
 - In those cases, use /bin/sh.
 
+## **Docker Network**
+## 17. docker network ls 
+check docker network list
 
+## 18. docker network create NETWORK_NAME
+To create new network
 
