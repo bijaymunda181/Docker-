@@ -103,4 +103,7 @@ This is the generic format for port mapping when running a Docker container.
 
 docker run -d -p 8080:3306 -e MYSQL_ROOT_PASSWORD=pass123 mysql
 
+## **Troubleshoot Command**
+## 14. docker logs `<container_ID/Name>`
+To view the logs (output) from a container
 
