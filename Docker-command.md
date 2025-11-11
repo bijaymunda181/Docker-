@@ -86,6 +86,7 @@ To run a Docker container in detached mode (-d), set an environment variable (-e
 ## 12. docker run -d -e MYSQL_ROOT_PASSWORD=`<Add_password>` `<image-name>`:`<version>`
 To run a Docker container of specific version in detached mode (-d), set an environment variable (-e), and use an image to create the container.
 
+## **PORT BINDING**
 ## 13. docker run -d -p `<host-port>`:`<container-port>` `<image-name>`
 This is the generic format for port mapping when running a Docker container.
 
